@@ -1,0 +1,12 @@
+<hibernate-mapping>
+<class name="Model.Employee" table="employees">
+<id column="id" name="id" type="int">
+<generator class="increment"/>
+</id>
+<property column="loginid" name="loginid" type="string"/>
+<property column="empname" name="empname" type="string"/>
+<property column="department" name="department" type="string"/>
+<property column="skills" name="skills" type="string"/>
+<property column="salary" name="salary" type="int"/>
+</class>
+</hibernate-mapping>

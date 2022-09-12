@@ -1,0 +1,9 @@
+<hibernate-mapping>
+<class name="Model.Admin" table="admin">
+<id column="id" name="id" type="int">
+<generator class="increment"/>
+</id>
+<property column="loginid" name="loginid" type="string"/>
+<property column="password" name="password" type="string"/>
+</class>
+</hibernate-mapping>
